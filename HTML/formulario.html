@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://codefornoncoders.com/material/html/formularios/formularios.css"
+    />
+</head>
+<body>
+    <form>
+        <label for="txtNombre">Nombre:</label>
+        <input 
+        type="text" 
+        name="txtNombre" 
+        id="txtNombre" 
+        placeholder="Escribe tu nombre aqui."
+        required
+        />
+
+        <label for="txtTelefono">Telefono:</label>
+        <input 
+        type="text" 
+        name="txtTelefono" 
+        id="txtTelefono"
+        placeholder="+52 231 313 3131"
+        pattern="[0-9]{9}"
+        />
+
+        <label for="txtCorreo">Correo Electronico:</label>
+        <input 
+        type="text" 
+        name="txtCorreo" 
+        id="txtCorreo"
+        placeholder="exemplo@hotmail.com"
+        required
+        />
+
+        <label for="txtMensaje">Mensaje:</label>
+        <textarea 
+        type="text" 
+        name="txtMensaje" 
+        id="txtMensaje"
+        placeholder="Escribe tu Mensaje Aqui."
+        required
+        ></textarea>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+
+    </form>
+
+</body>
+</html>

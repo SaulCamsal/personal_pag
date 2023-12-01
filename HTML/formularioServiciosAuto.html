@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://codefornoncoders.com/material/html/formularios/formularios.css"
+    />
+</head>
+<body>
+     <!-- Formulario Servicio Automovil -->
+     <form>
+
+        <label for="fecha">Fecha:</label>
+        <input 
+        type="date" 
+        name="fecha" 
+        id="fecha" 
+        required
+        />
+        <label for="txtMatricula">Matricula del Automovil:</label>
+        <input 
+        type="text" 
+        name="txtModelo" 
+        id="txtModelo" 
+        placeholder="Ingrese el Modelo del Automovil"
+        required
+
+        />
+        <label for="txtMarca">Marca:</label>
+        <input 
+        type="text" 
+        name="txtMarca" 
+        id="txtMarca" 
+        placeholder="Ingrese la Marca del Automovil"
+        required
+        />
+        <label for="txtModelo">Modelo:</label>
+        <input 
+        type="text" 
+        name="txtModelo" 
+        id="txtModelo" 
+        placeholder="Ingrese el Modelo del Automovil"
+        required
+        />
+        <label for="txtAnio">Año del Automovil:</label>
+        <input 
+        type="text" 
+        name="txtAnio" 
+        id="txtAnio"
+        placeholder="Digita el Año del Automovil"
+        max="2025"
+        min="1950"
+        />
+        <label for="txtDueno">Nombre del dueño:</label>
+        <input 
+        type="text" 
+        name="txtDueno" 
+        id="txtDueno"
+        placeholder="Nombre del propietario del automovil."
+        required
+        ></input>
+
+        <label>Tipo de Mantenimiento:</label>
+        <label for="cboxCorrectivo">Mantenimiento Correctivo</label>
+        <input 
+        type="checkbox" 
+        name="cboxCorrectivo" 
+        id="cboxCorrectivo"
+        />
+        <label for="cboxPreventivo">Mantenimiento Preventivo</label>
+        <input 
+        type="checkbox"
+        name="cboxCorrectivo"
+        id="cboxCorrectivo" 
+        />
+
+
+        <label for="txtMantenimiento">Descripción del mantenimiento:</label>
+        <textarea 
+        type="text" 
+        name="txtMantenimiento" 
+        id="txtMantenimiento"
+        placeholder="Escribe la descripci[on del mantenimiento a efectuar aqui."
+        required
+        ></textarea>
+       
+        <!--Buttons-->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button> 
+    </form>
+
+</body>
+</html>
